@@ -22,7 +22,7 @@ EXAMPLE
 ```./getproc.sh prime 0```
 
 The ouput is stored in a TXT FILE with the format ```<PID>-<script>.txt```  
-See file ```19403-prime.txt``` = the output of the abow command.
+See file ```30120-prime.txt``` = the output of the abow command.
 
 The script feches data evry 100ms (0.1 secs).
 
