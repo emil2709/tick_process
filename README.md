@@ -11,21 +11,22 @@ The ```prime``` file is a test script whitch utilizes on average 50% CPU time.
 
 
 
-How to run the script:
+HOW TO RUN THE SCRIPT
 
 ```./getproc <script> <CPU>```
 
 CPU = the CPU-number on you want the script to be executed on.
 
+EXAMPLE
+
 ```./getproc.sh prime 0```
 
-The ouput is stored in a file with the format ```<PID>-<script>.txt```
+The ouput is stored in a TXT FILE with the format ```<PID>-<script>.txt```
 
 
 The script feches data evry 100ms (0.1 secs).
 
-A typical output of the file:
-
+A typical line in the file:
 
 ```19403 537 10 0 0 9194817 9195917 1100 .4972```
 
