@@ -3,11 +3,11 @@ This script takes in a process and calculate all time stats for the process.
 
 First:
 
-```gcc -o prime prime.c``` compiling the C script
+```gcc -o prime prime.c``` compiling the C script  
 
-```chmod +rd getproc.sh``` Give access to execute the file.
+```chmod +rd getproc.sh``` Give access to execute the file.  
 
-The ```prime``` file is a test script whitch utilizes on average 50% CPU time.
+The ```prime``` file is a test script whitch utilizes on average 50% CPU time.  
 
 
 
