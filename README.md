@@ -29,7 +29,7 @@ A typical output of the file:
 
 ```19403 537 10 0 0 9194817 9195917 1100 .4972```
 
-line 1 = Process ID 
+line 1 = Process ID  
 line 2 = CPU time spent in user code, measured in clock ticks  
 line 3 = CPU time spent in kernel code, measured in clock ticks  
 line 4 = Waited-for children's CPU time spent in user code (in clock ticks)  
