@@ -30,7 +30,7 @@ A typical line in the file will look like:
 
 ```30120 539 14 0 0 9470514 9471625 1111 0.4977```  
 
-The last line in the .txt fill will also be printed to the user.
+The last line in the text file will also be printed to the user.
 
 line 1 = Process ID  
 line 2 = CPU time spent in user code, measured in clock ticks  
