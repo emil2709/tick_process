@@ -20,7 +20,7 @@ while [ -e /proc/$pid ];
 do
 	uptime=$( get_uptime )
 	tick_start=$( get_tick_start )
-  time_used=$( get_time_used )
+	time_used=$( get_time_used )
 	var=$(echo "scale=0; $uptime * 100" | bc)
 	var=${var%.*}
 
@@ -37,7 +37,7 @@ do
 		utilization="0"$(bc <<< "scale=4; $ticks_used/$tick")
 	fi
 
-	pid_data="$pid $time_used $tick_start $var $tick $utilization"
+	pid_data="$pid $time_used $tick $utilization"
 
 	echo "$pid_data" >> $pid-$1.txt
 	sleep 0.1
