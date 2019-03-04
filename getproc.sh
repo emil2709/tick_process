@@ -34,7 +34,7 @@ do
 	then
 		utilization=0
 	else
-		utilization="0"$(bc <<< "scale=4; $ticks_used/$tick")
+		utilization=$(bc <<< "scale=4; $ticks_used/$tick")
 	fi
 
 	pid_data="$pid $time_used $tick $utilization"
