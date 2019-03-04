@@ -40,6 +40,6 @@ do
 	pid_data="$pid $time_used $tick $utilization"
 
 	echo "$pid_data" >> $pid-$1.txt
-	sleep 0.1
+	sleep 0.05
 done
 echo $pid_data
