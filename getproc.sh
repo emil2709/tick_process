@@ -29,7 +29,6 @@ do
 
 	tick=$(( var - tick_start ))
 
-
 	if [ "$tick" -eq 0 ];
 	then
 		utilization=0
