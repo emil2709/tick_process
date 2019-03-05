@@ -35,10 +35,11 @@ do
 	else
 		utilization=$(bc <<< "scale=4; $ticks_used/$tick")
 	fi
+	date=$( date +%s%3N )
 
-	pid_data="$pid $time_used $tick $utilization"
+	pid_data="$pid $time_used $tick $utilization $date"
 
-	echo "$pid_data" >> $pid-$1.txt
+	echo "$pid_data" >> $pid-$1.txt 
 	sleep 0.05
 done
 echo $pid_data
