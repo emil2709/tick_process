@@ -23,6 +23,6 @@ int main()
 	     primes++;
 	  }
      }
-printf("%d primes below %d\n",primes,MAX);
+/*printf("%d primes below %d\n",primes,MAX); */
 }
 
