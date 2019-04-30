@@ -33,9 +33,9 @@ A typical line in the file will look like:
 The last line in the text file will also be printed to the user.
 
 line 1 = Process ID  
-line 2 = CPU time spent in user code, measured in clock ticks  
-line 3 = CPU time spent in kernel code, measured in clock ticks  
-line 4 = Waited-for children's CPU time spent in user code (in clock ticks)  
-line 5 = Waited-for children's CPU time spent in kernel code (in clock ticks)  
-line 6 = How many ticks the provess have used. Current tick - tick of start(1100 ticks = 11.0 secs)  
+line 2 = CPU time spent in user mode, measured in clock ticks  
+line 3 = CPU time spent in kernel mode, measured in clock ticks  
+line 4 = Waited-for children's CPU time spent in user mode (in clock ticks)  
+line 5 = Waited-for children's CPU time spent in kernel mode (in clock ticks)  
+line 6 = How many ticks the process have used. Current tick - tick of start(1100 ticks = 11.0 secs)  
 line 7 = CPU utilization (line 2-5 / line 8) .4972 = 49.72%  
