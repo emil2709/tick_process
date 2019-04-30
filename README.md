@@ -11,7 +11,7 @@ The ```prime``` file is a test script whitch utilizes on average 50% CPU time.
 
 HOW TO RUN THE SCRIPT
 
-```taskset -c <CPU>./getproc <script> <other-CPU>```  
+```taskset -c <CPU> ./getproc <script> <other-CPU>```  
 
 Use taskset to run the script on another CPU because running this script is CPU heavy so we do not want it to interfeare with the script you want to get the ```/proc/[pid]/stat``` file from.  
 
